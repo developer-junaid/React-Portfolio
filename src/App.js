@@ -1,7 +1,11 @@
+// Components
+import Topbar from "components/Topbar";
+
+// App
 function App() {
   return (
     <div>
-      <h2>hello</h2>
+      <Topbar />
     </div>
   );
 }
