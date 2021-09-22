@@ -10,6 +10,7 @@ import Contact from "components/Contact";
 
 // Styles
 import "./app.scss";
+import Menu from "components/Menu";
 
 // App
 function App() {
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
         <Portfolio />
