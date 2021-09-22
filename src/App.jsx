@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 // Components
 import Intro from "components/Intro";
 import Topbar from "components/Topbar";
@@ -11,9 +13,11 @@ import "./app.scss";
 
 // App
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="app">
-      <Topbar />
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />
         <Portfolio />
