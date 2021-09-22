@@ -7,11 +7,21 @@
     background: salmon;
     position: relative;
     top: 70px;
+    // Setup Snap Scrolling
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; // For firefox
+    &::-webkit-scrollbar {
+      display: none;
+    } // For other browsers (Chrome, safari)
+    // Setup Snap Scrolling
 
     // For Each Element inside sections
     > * {
       width: 100vw;
       height: calc(100vh - 70px);
+      // Setup Snap Scrolling
+      scroll-snap-align: start;
+      // Setup Snap Scrolling
     }
   }
 }

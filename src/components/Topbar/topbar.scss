@@ -1,7 +1,9 @@
+@import "/src/global.scss";
+
 .topbar {
   width: 100%;
   height: 70px;
-  background-color: darkblue;
+  background-color: $primary_color;
   position: fixed;
   top: 0;
   z-index: 2;
