@@ -8,6 +8,7 @@
     position: relative;
     top: 70px;
     // Setup Snap Scrolling
+    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; // For firefox
     &::-webkit-scrollbar {
