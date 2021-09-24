@@ -2,7 +2,7 @@
 
 # HOMEPAGE
 
-<img src='man.png'/>
+<img src='home.png'/>
 
 ### :link:link :
 
