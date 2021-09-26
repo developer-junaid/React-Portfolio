@@ -4,7 +4,7 @@
 
 <img src='home.png'/>
 
-### :link:link :
+### :link: Learned from : [Lama Dev](https://youtu.be/7WwtzsSHdpI)
 
 ## Run Locally
 
